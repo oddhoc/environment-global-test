@@ -1,4 +1,4 @@
 module "s3-bucket" {
-  source = "git@github.com:oddhoc/s3-bucket.git"
+  source = "oddhoc/s3-bucket"
   name   = "oddhoc-test"
 }
